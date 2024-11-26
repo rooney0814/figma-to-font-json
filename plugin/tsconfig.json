@@ -1,0 +1,13 @@
+{
+  "extends": "@create-figma-plugin/tsconfig",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "typeRoots": ["node_modules/@figma", "node_modules/@types"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["jest"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/*.json"]
+}
